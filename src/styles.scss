@@ -1,1 +1,31 @@
 /* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.wide-inner-shadow {
+  box-shadow: 4.654px 4.654px 9.309px 0px rgba(0, 0, 0, 0.32) inset,
+    -2.793px -2.793px 3.723px 0px rgba(255, 255, 255, 0.1) inset;
+}
+
+.msg-inner-shadow {
+  box-shadow: 4.654px 4.654px 9.309px 0px rgba(0, 0, 0, 0.32) inset,
+    -2.793px -2.793px 3.723px 0px rgba(255, 255, 255, 0.1) inset;
+}
+
+#message {
+  overflow: hidden; /* or overflow: scroll; */
+  resize: none;
+}
+
+.rt-msg {
+  border-radius: 10.776px 10.776px 0px 10.776px;
+  background-blend-mode: overlay;
+  backdrop-filter: blur(7.512218952178955px);
+}
+
+.lft-msg {
+  border-radius: 10.776px 10.776px 10.776px 0px;
+  background-blend-mode: overlay;
+  backdrop-filter: blur(7.512218952178955px);
+}

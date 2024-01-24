@@ -1,0 +1,40 @@
+.emoji-picker-container {
+  width: 100%;
+  position: relative;
+}
+
+.file-preview {
+  position: relative;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+
+.file-preview img {
+  max-width: 100px;
+  max-height: 100px;
+  display: block;
+}
+
+.file-preview button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 50%;
+}
+
+.message-container {
+  width: fit-content; /* Set width to content width */
+  max-width: 80vw; /* Set maximum width (adjust percentage as needed) */
+  margin: 0.5em; /* Add some margin for spacing */
+}
+
+/* Adjusting width and margin for image container */
+.message-container .flex {
+  width: 100%;
+  margin: 0.5em 0;
+}
